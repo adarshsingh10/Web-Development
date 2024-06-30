@@ -1,0 +1,145 @@
+html, body  {
+    /* height: 100%; */
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+.container  {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.container-1{
+    background-color: #e4f9f5;
+    width: 100%;
+    height: 180rem;
+    /* padding-top: 100px; */
+}
+.top-cloud  {
+    position: absolute;
+    top: 40px;
+    right: 300px;
+}
+.text-title {
+    height: 40%;
+    width: 100%;
+    padding-top: 100px;
+    position: relative;
+}
+.img-section {
+    height: 60%;
+    width: 100%;
+    /* background-color: red; */
+}
+.pro {
+    text-decoration: underline;
+}
+h1 {
+    color: #66bfbf;
+    font-size: 5.625rem;
+    font-family: "Sacramento", cursive;;
+}
+h2  {
+    color: #66bfbf;
+    font-size: 2.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+.middle-cloud {
+    position: absolute;
+    left: 14rem;
+    margin-top: 1rem;
+}
+.mountain {
+    position: relative;
+    margin-bottom: 0;
+    padding-bottom: 1.1rem;  /* By Padding the blue background moved down to the mountain or else it was on the mountain*/
+}
+.container-2{
+    /* background-color: blue; */
+    width: 100%;
+    height: 360rem;
+    display: flex;
+    flex-direction: column;
+}
+.profile {
+    width: 100%;
+    height: 24rem;
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile-1 {
+    padding-top: 5rem;
+}
+.profile-img {
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    border: 1px solid rgb(245, 242, 242);
+}
+.skills {
+    width: 100%;
+    height: 4rem;
+    /* background-color: yellow; */
+}
+p{
+    margin: 0;
+    padding: 0;
+    line-height: 2;
+}
+.intro {
+    width: 20%;
+    margin-left: 40%;
+}
+hr {
+    border: dotted #3a8383 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.container-3{
+    /* background-color: green; */
+    width: 100%;
+    /* height: 15%; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.my-skills{
+    /* height: 50rem; */
+    width: 50%;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 100px;
+    text-align: left;
+    gap: 2rem;
+}
+h3 {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+}
+.typing-img, .workout-img {
+    width: 16rem;
+    height: 16rem;
+}
+.footer {
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+}
+.copyright {
+    color: white;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+a {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}

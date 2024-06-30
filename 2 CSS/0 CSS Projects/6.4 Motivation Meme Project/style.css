@@ -1,0 +1,30 @@
+html, body {                                               /* html makes the screen use to 100% height so need to use html */
+    background-color: rgb(35, 33, 33);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.box1 {
+    /* background-color: white; */
+    height: 60%;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    top: 100px;
+    color: white;
+    position: relative; /* Use relative positioning */
+    top: 5%; /* or any other value you prefer */
+    transform: translateY(5%); /* Move the element down by 5% of its own height */
+}
+
+.motivation-img {
+    border: 5px solid white;
+    width: 100%;
+    height: 70%;
+}
